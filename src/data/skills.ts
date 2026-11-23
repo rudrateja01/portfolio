@@ -16,5 +16,5 @@ export const skillGroups: SkillGroup[] = [
 ];
 
 /** Technical skills shown in the scrolling marquee. */
-export const marqueeRow1 = ['Java', 'JavaScript', 'React.js', 'HTML5', 'CSS3', 'Node.js'];
-export const marqueeRow2 = ['Express.js', 'REST APIs', 'MongoDB', 'MySQL', 'MERN Stack'];
+export const marqueeRow1 = ['Java', 'JavaScript', 'React.js', 'Node.js', 'HTML5', 'CSS3'];
+export const marqueeRow2 = ['Express.js', 'MongoDB', 'MySQL', 'MERN Stack', 'REST APIs'];
