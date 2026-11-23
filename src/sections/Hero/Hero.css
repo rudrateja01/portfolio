@@ -1,0 +1,18 @@
+.hero { position: relative; display: flex; flex-direction: column; height: 100vh; height: 100svh; min-height: 34rem; padding-top: var(--nav-h); overflow-x: clip; }
+.hero__title-wrap { overflow: hidden; padding: 0 1rem; }
+.hero__title { font-weight: 900; }
+.hero__title-text { font-weight: 900; text-transform: uppercase; letter-spacing: -0.025em; }
+.hero__bottom { position: relative; z-index: 20; display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-top: auto; padding: 0 1.5rem 1.75rem; }
+/* empty space of the bottom bar must not block grabbing the portrait */
+.hero__bottom { pointer-events: none; }
+.hero__bottom > * { pointer-events: auto; }
+.hero__tagline { max-width: 11.5rem; color: var(--fg); font-weight: 300; text-transform: uppercase; letter-spacing: 0.025em; line-height: 1.375; font-size: clamp(0.7rem, 1.3vw, 1.3rem); }
+.hero__actions { display: flex; flex-direction: column; align-items: flex-end; gap: 0.6rem; }
+
+@media (min-width: 640px) {
+  .hero__bottom { padding-bottom: 2rem; }
+  .hero__tagline { max-width: 17rem; }
+  .hero__actions { flex-direction: row; align-items: center; gap: 0.9rem; }
+}
+@media (min-width: 768px) { .hero__bottom { padding: 0 2.5rem 2.5rem; } }
+@media (min-width: 1024px) { .hero__tagline { max-width: 22rem; } }

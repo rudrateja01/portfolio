@@ -1,0 +1,7 @@
+.section-heading { margin-bottom: 4rem; text-align: center; }
+.section-heading__title { font-weight: 900; }
+.section-heading__text { font-weight: 900; text-transform: uppercase; letter-spacing: -0.025em; }
+.section-heading__text--ink { color: var(--ink); -webkit-text-fill-color: var(--ink); }
+.section-heading__intro { max-width: 40rem; margin: 1.25rem auto 0; font-weight: 300; line-height: 1.6; font-size: clamp(0.95rem, 1.6vw, 1.2rem); opacity: 0.8; }
+@media (min-width: 640px) { .section-heading { margin-bottom: 5rem; } }
+@media (min-width: 768px) { .section-heading { margin-bottom: 6rem; } }

@@ -1,0 +1,25 @@
+:root {
+  --bg: #0c0c0c;
+  --ink: #0c0c0c;
+  --fg: #d7e2ea;
+  --white: #ffffff;
+
+  --gradient-text: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  --gradient-brand: linear-gradient(123deg, #18011f 7%, #b600a8 37%, #7621b0 72%, #be4c00 100%);
+
+  --font: 'Kanit', sans-serif;
+
+  --radius-section: 40px;
+  --section-overlap: 2.5rem;
+  --pad-x: 1.25rem;
+  --pad-y: 5rem;
+  --container: 72rem;
+  --nav-h: 4.5rem;
+}
+
+@media (min-width: 640px) {
+  :root { --radius-section: 50px; --section-overlap: 3rem; --pad-x: 2rem; --pad-y: 6rem; }
+}
+@media (min-width: 768px) {
+  :root { --radius-section: 60px; --section-overlap: 3.5rem; --pad-x: 2.5rem; --pad-y: 8rem; }
+}

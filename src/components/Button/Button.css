@@ -1,0 +1,20 @@
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem;
+  border-radius: 999px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
+  padding: 0.75rem 2rem; font-size: 0.75rem; white-space: nowrap;
+  transition: transform 0.2s ease, filter 0.2s ease, background-color 0.2s ease;
+}
+.btn svg { width: 1.1em; height: 1.1em; flex: none; }
+.btn--primary {
+  color: #fff; border: 0;
+  background: var(--gradient-brand);
+  box-shadow: 0 4px 4px rgba(181, 1, 167, 0.25), 4px 4px 12px #7721b1 inset;
+  outline: 2px solid #fff; outline-offset: -3px;
+}
+.btn--primary:hover { transform: translateY(-2px); filter: brightness(1.12); }
+.btn--primary:focus-visible { outline-offset: 3px; }
+.btn--ghost { color: var(--fg); background: transparent; border: 2px solid var(--fg); }
+.btn--ghost:hover { background: rgba(215, 226, 234, 0.1); transform: translateY(-2px); }
+
+@media (min-width: 640px) { .btn { padding: 0.875rem 2.5rem; font-size: 0.875rem; } }
+@media (min-width: 768px) { .btn--primary { padding: 1rem 3rem; font-size: 1rem; } .btn--ghost { padding: 0.9rem 2.6rem; font-size: 1rem; } }
