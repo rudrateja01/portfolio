@@ -7,10 +7,11 @@ export const profile: Profile = {
   heroTagline:
     'software analyst at Ideabytes, building skills and creating meaningful technology solutions',
   summary: [
-    'I’m a Computer Science graduate from Malla Reddy University (2021–2025) who enjoys building full-stack web applications. I work with React.js, Node.js, Express.js and MongoDB, and I’m comfortable with Java, JavaScript and MySQL.',
-    'Beyond the web, I’ve built a CNN-based emphysema detection system and a Flask-based disease prediction app using classical machine learning algorithms.',
-    'Always learning. Always building. Always improving.',
-  ],
+  'I’m a B.Tech graduate in Computer Science and Engineering from Malla Reddy University, with a strong interest in software development, databases, and problem-solving.',
+  'I have a solid foundation in Java, JavaScript, Python, HTML, and CSS, along with knowledge of MySQL, MongoDB, and database management concepts. I particularly enjoy Java programming, writing SQL queries, working with data, and strengthening my problem-solving skills through hands-on coding.',
+  'I’m a quick learner, self-motivated, and adaptable, with a strong willingness to explore new technologies and take on challenging tasks. I enjoy understanding how things work and continuously improving my technical and professional skills.',
+  'Always learning. Always improving. Looking forward to building meaningful solutions, contributing to innovative projects, and growing in the technology industry.',
+],
   resumeUrl: '/Rudra_Teja_Goud_CV.pdf',
   email: 'rudrateja8897@gmail.com',
   phone: '+918897917060',
